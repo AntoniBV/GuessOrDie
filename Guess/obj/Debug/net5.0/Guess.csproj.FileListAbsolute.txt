@@ -1,0 +1,16 @@
+/home/abv/Documents/Guess/bin/Debug/net5.0/Guess
+/home/abv/Documents/Guess/bin/Debug/net5.0/Guess.deps.json
+/home/abv/Documents/Guess/bin/Debug/net5.0/Guess.runtimeconfig.json
+/home/abv/Documents/Guess/bin/Debug/net5.0/Guess.runtimeconfig.dev.json
+/home/abv/Documents/Guess/bin/Debug/net5.0/Guess.dll
+/home/abv/Documents/Guess/bin/Debug/net5.0/ref/Guess.dll
+/home/abv/Documents/Guess/bin/Debug/net5.0/Guess.pdb
+/home/abv/Documents/Guess/obj/Debug/net5.0/Guess.csprojAssemblyReference.cache
+/home/abv/Documents/Guess/obj/Debug/net5.0/Guess.GeneratedMSBuildEditorConfig.editorconfig
+/home/abv/Documents/Guess/obj/Debug/net5.0/Guess.AssemblyInfoInputs.cache
+/home/abv/Documents/Guess/obj/Debug/net5.0/Guess.AssemblyInfo.cs
+/home/abv/Documents/Guess/obj/Debug/net5.0/Guess.csproj.CoreCompileInputs.cache
+/home/abv/Documents/Guess/obj/Debug/net5.0/Guess.dll
+/home/abv/Documents/Guess/obj/Debug/net5.0/ref/Guess.dll
+/home/abv/Documents/Guess/obj/Debug/net5.0/Guess.pdb
+/home/abv/Documents/Guess/obj/Debug/net5.0/Guess.genruntimeconfig.cache
