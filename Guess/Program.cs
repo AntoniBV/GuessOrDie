@@ -22,14 +22,14 @@ namespace Guess
                
                 Random broj = new Random();
             int pobjednickiBroj = broj.Next(0,sto);
-            //Console.WriteLine("pobjednicki" + pobjednickiBroj);
+            Console.WriteLine("pobjednicki" + pobjednickiBroj);
             
            
             if(pokusaj <= 3)
             {
             bool parse = false;
             int a = 0;
-            int b;
+            
             while(parse == false)
             {
   
@@ -38,7 +38,7 @@ namespace Guess
             string pogadaj = Console.ReadLine();
             
             
-            parse = int.TryParse(pogadaj, out b);
+            parse = int.TryParse(pogadaj, out a);
             }
             
             
