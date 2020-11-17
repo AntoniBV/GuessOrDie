@@ -6,29 +6,63 @@ namespace Guess
     {
         static void Main(string[] args)
         {
-             bool pobjeda = false;
+            bool pobjeda = false;
+            int sto = 100;
+            int pokusaj = 1;
+            double nagrada = 100;
+            
+            Console.WriteLine("Morate pogoditi broj između 0 i 100.");
+            Console.WriteLine("Nagrada iznosi 100 kuna.");
+            Console.WriteLine("Svaki novi pokušaj će vam umanjiti nagradu za 25%");     
+            Console.WriteLine("");
 
             while(pobjeda == false)
-            {   int sto = 100;
-                sto++;
-                Console.WriteLine(sto);
+            {   
+                
+               
                 Random broj = new Random();
             int pobjednickiBroj = broj.Next(0,sto);
-            Console.WriteLine(pobjednickiBroj);
-
-            Console.WriteLine("Upisite broj");
-            int a = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("pobjednicki" + pobjednickiBroj);
+            
+           
+            if(pokusaj <= 3)
+            {
+            bool parse = false;
+            int a = 0;
+            int b;
+            while(parse == false)
+            {
+  
+            Console.WriteLine("Pokušaj broj: " + pokusaj);
+            Console.WriteLine("Upišite broj:");
+            string pogadaj = Console.ReadLine();
+            
+            
+            parse = int.TryParse(pogadaj, out b);
+            }
+            
+            
+          
+            Console.WriteLine("");
             if(a == pobjednickiBroj)
             {
-                Console.WriteLine("Pobjedili ste");
+                Console.WriteLine("Pobjedili ste i osvojili " + nagrada + " kuna.");
                 pobjeda = true;
                 
             }
-            else{
-                ++sto;
-                Console.WriteLine("Izgubili ste");
-                Console.WriteLine("");
+            else if(a != pobjednickiBroj){
+                pokusaj++;
+                nagrada *= 0.75;
+                
             }
+
+            }else
+            {
+                Console.WriteLine("Izgubili ste");
+                pobjeda = true;
+            }
+                     
+            
 
             }
         }
