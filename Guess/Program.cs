@@ -22,7 +22,7 @@ namespace Guess
                
                 Random broj = new Random();
             int pobjednickiBroj = broj.Next(0,sto);
-            Console.WriteLine("pobjednicki" + pobjednickiBroj);
+            //Console.WriteLine("Test " + pobjednickiBroj);
             
            
             if(pokusaj <= 3)
